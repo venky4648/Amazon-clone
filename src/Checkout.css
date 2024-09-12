@@ -1,0 +1,84 @@
+.checkout_ad{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout {
+    display: flex;
+    padding:20px;
+    background-color: white;
+    height:max-content;
+}
+
+.checkout_title{
+    margin-right:10px;
+    padding:10px;
+    border-bottom:1px solid lightgray
+}
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .checkout_left {
+    flex: 0.7; /* Adjust as needed */
+  }
+  
+  .checkout_right {
+    flex: 0.3; /* Adjust as needed */
+    padding: 20px; /* Add some padding */
+  }
+  
+  .checkout_ad {
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .checkout_product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkout_productImage {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .checkout_productInfo {
+    flex: 1;
+  }
+  
+  .checkout_productTitle {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .checkout_productPrice {
+    margin: 10px 0;
+  }
+  
+  .checkout_productRating {
+    display: flex;
+  }
+  
+  .subtotal {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  .subtotal_gift {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subtotal_gift input {
+    margin-right: 10px;
+  }
+  

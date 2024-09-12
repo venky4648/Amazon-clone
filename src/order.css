@@ -1,0 +1,45 @@
+.orders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Light background color */
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .orders h1 {
+    font-size: 3rem;
+    color: #28a745; /* Green checkmark color */
+    margin-bottom: 1rem;
+  }
+  
+  .orders p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .orders .celebrate-icon {
+    font-size: 5rem;
+    color: #28a745; /* Green checkmark */
+    margin-bottom: 1rem;
+  }
+  
+  .orders button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .orders button:hover {
+    background-color: #ff7700; /* Darker orange on hover */
+  }
+  
